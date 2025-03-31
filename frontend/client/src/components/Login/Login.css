@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+.auth-container {
+  margin: 0;
+  padding: 0;
+  background: url("../../assets/background3.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(3px);
+  text-align: center;
+  width: 350px;
+  
+  /* Center the login box */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.login-box input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-box select {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background: #ff4500;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-box button:hover {
+  background: #ff6347;
+}
+
+.forgot-password {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 20px;
+  display: inline-block;
+}
+/* For Webkit-based browsers (Chrome, Edge, Safari) */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* Hide overflow while allowing scroll */
+body {
+  overflow: auto;
+}

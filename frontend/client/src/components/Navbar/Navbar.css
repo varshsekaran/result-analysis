@@ -1,0 +1,36 @@
+:root {
+    --color_cerulean_approx: #831238;
+}
+.auth-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    position: relative;
+  }
+  .logo {
+    display: block;  /* Ensures it's treated as a block element */
+    position: absolute; /* Allows precise positioning */
+    top: 0px; /* Adjust as needed */
+    left: 10px; /* Moves the logo to the left */
+    width: 250px; /* Adjust size as needed */
+    height: 70px; /* Maintains aspect ratio */
+  }
+.navbar {
+    padding: 40px;
+    background-color: #831238;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.login {
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.navbar a {
+    text-decoration: none; 
+    color: inherit; 
+  }
